@@ -30,6 +30,7 @@ body {
     padding-left: 15px;
     background-color: var(--color-menu);
     position: fixed;
+    z-index: 5;
     top: 0;
     display: flex;
     align-content: center;
@@ -76,13 +77,13 @@ body {
     font-family: 'Roboto';
 }
 
-.sin_borde{
+.finder{
     border: 0;
     background-color: transparent;
     width: 100%;
     font-size: 1rem;
 }
-.sin_borde:focus{
+.finder:focus{
     border: 0;
     outline: 0;
 }
@@ -104,17 +105,17 @@ body {
     margin-right: 10px;
 }
 
-.notificacion_icono{
+.notifications{
     content: url(./images/notificacionicon.svg);
     height: 25px;   
 }
 
-.mensaje_icono{
+.message{
     content: url(./images/mensajeicon.svg);
     height: 25px; 
 }
 
-.usuario_icono{
+.profile-img{
     content: url(./images/usericon.svg);
     height: 25px; 
 }
@@ -131,7 +132,7 @@ body {
     justify-content: center;
 }
 
-.tarjeta{
+.card-image{
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
